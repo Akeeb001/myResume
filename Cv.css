@@ -1,0 +1,362 @@
+
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container 
+{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height:1000px;
+  max-height: 100%;
+  background-color: rgb(151, 247, 252);
+  margin: 20px;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0px 35px 55px  rgb(71, 68, 68);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.container .left_site
+{
+  position: relative;
+  background-color: #078f;
+  padding:40px;
+ 
+  
+}
+.profile_text .imgbx {
+  position:relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile_text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1px;
+  
+}
+
+.profile_text .imgbx img
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profile_text h2
+{
+  color:#fff;
+  font-size: 1.5em;
+  margin-top:20px;
+  text-transform:uppercase;
+  text-align:center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profile_text h2 span
+{
+  font-size:0.8em;
+  font-weight: 500;
+  color:  rgb(230, 255, 6);
+  text-transform: capitalize;
+}
+.contact_info
+{
+  padding: 0px;
+  color: #fff;
+  
+  
+}
+.tittle
+{
+  color: #fff;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.contact_info ul 
+{
+  position: relative;
+}
+.contact_info ul li
+{
+  position: relative;
+  list-style: none;
+  margin:10px 0px;
+  cursor: pointer;
+}
+.contact_info ul li .icon 
+{
+  position: absolute;
+  display: inline-block;
+  margin-left: -30px;
+  width: 30px;
+  font-size: 18px;
+  color: #3af;
+}
+.contact_info ul li span
+{
+  color: #fff;
+  font-weight: 300;
+
+}
+
+.contact_info_education ul li 
+{
+  list-style: none;
+}
+
+.contact_info_education h5
+{
+  color:rgb(230, 255, 6);
+  font-weight: 500;
+  font-size: 15px;
+  margin:10px;
+  
+}
+.contact_info_education p{
+  color: #fff;
+  font-weight:300;
+  
+}
+.contact_info_education h4
+{
+  color: #fff;
+  font-weight: 500;
+  padding-bottom: 0px;
+  
+  
+}
+
+
+.contact_info_languages ul li
+{
+  list-style: none;
+  color:rgb(255, 255, 255);
+  font-weight: 300;
+  margin: 10px;
+  font-weight: 500;
+  
+  
+}
+.contact_info_languages .percent
+{
+  position: relative;
+  width:100%;
+  margin-top: 5px;
+  height:6px;
+  display: block;
+  border-radius: 10px;
+  background: #5f7580;
+}
+.contact_info_languages .percent div
+{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  border-radius: 10px;
+  background: rgb(230, 255, 6);
+
+}
+.interests ul li{
+  list-style: none;
+  color: #fff;
+  font-weight: 300;
+  text-transform: capitalize;
+
+
+}
+
+.container .right_site
+{
+  position: relative;
+  background-color: rgb(233, 229, 229);
+  padding: 20px;
+  
+}
+.right_site .about h2
+{
+  color: #052b7e;
+  font-weight: 500;
+  border-bottom: 1.2px solid #052b7e;
+  border-top: 1.2px solid #052b7e;
+}
+.about p  
+{
+  align-items: center;
+  text-align: justify;
+  color: #2c2e30;
+  font-size: 20px;
+  font-weight: 250;
+  padding-bottom: 10px;
+  
+  
+}
+.skills 
+{
+  text-transform: uppercase;
+  align-content: center;
+  padding-bottom: 10px;
+  
+}
+.skills h2
+{
+  color:#052b7e;
+  font-weight: 500;
+  border-bottom: 1.2px solid #052b7e;
+  border-top: 1.2px solid #052b7e;
+}
+.skills ul li 
+{
+  
+  font-weight: 400;
+  margin:10px;
+  list-style: none;
+  color: #078f;
+}
+.skills .work  {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skills h3{
+  color: #47494e;;
+
+}
+.skills .work ul li .posision{
+  color: #052b7e;
+  font-weight: 600;
+  font-size: 20px;
+  
+  
+}
+.skills .work ul li .date{
+  color: rgb(255, 6, 6);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+  
+
+}
+.skills .work ul li .para{
+  color: #47494e;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 15px;
+  
+}
+.skills .social{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.skills .personal{
+  display: flex;
+  justify-content: space-evenly;
+  
+
+}
+.skills .personal{
+  list-style: none;
+  color: #47494e;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+  
+
+.skills .social ul li .posision{
+  color: #052b7e;
+  font-weight: 600;
+  font-size: 20px;
+  
+}
+.skills .social ul li .date{
+  color: rgb(255, 6, 6);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+  
+
+}
+
+.skills .social ul li .para{
+  color: #47494e;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.skills .programming ul li span {
+   color :rgb(231, 72, 72);
+   font-weight: 600;
+   font-size: 14px;
+}
+.programming{
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+
+.right_site .skills .percent 
+{
+  position: relative;
+  width: 200px;
+  height: 7px;
+  margin-top: 5px;
+  display: block;
+  border-radius: 10px;
+  background: #a7a9af;
+}
+
+.skills .percent div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: #078f;
+}
+.referees{
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.referees h4{
+
+  color: #078f;
+  text-transform: capitalize;
+  font-size: 20px;
+   
+}
+.referees .pno{
+  color: rgb(231, 72, 72);
+  font-weight: 500;
+}
+
+.referees .pos{
+  color: #5f7580;
+  font-weight: 600;
+  text-transform: capitalize;
+  
+}
+
